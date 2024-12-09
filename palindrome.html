@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            palindrome number
+        </title>
+        <body>
+            <script>
+                function palindrome(num)
+                {
+                  const len =num.length;
+                  for(i=0;i<len/2;i++){
+                    if(num[i]!=num[len-1-i]){
+                        alert(num+"is not a palindrome");
+                    }
+                    alert(num+"ia a palindrome");
+                  }
+
+                }
+                const number=prompt("enter any number");
+                const output=palindrome(number);
+
+
+            </script>
+        </body>
+    </head>
+</html>

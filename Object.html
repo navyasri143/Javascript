@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title> OBJECTS DEMONSTRATION</title>
+    </head>
+    <body>
+        <script>
+            const student={
+                name:"navya",
+                age:18,
+                salary:500000,
+                job:"software"
+            }
+            console.log(student['name']);
+            console.log(student.job);
+            for(let i in student){
+                console.log(i,":",student[i]);
+            }
+            const s= JSON.stringify(student)
+            console.log(s);
+            student.education="b.tech";
+            console.log(student['education']);
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>
+            factorial
+        </title>
+
+    </head>
+    <body>
+        <script>
+            function fact(n){
+                if(n==0){
+                    return 1;
+                }
+                else{
+                    return n*fact(n-1);
+                }
+            }
+            let n=prompt("enter any number");
+            document.write("the factorial of"+n+"is"+fact(n));
+        </script>
+    </body>
+</html>
